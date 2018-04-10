@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client2/config-client2.iml" filepath="$PROJECT_DIR$/config-client2/config-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serice-feign/serice-feign.iml" filepath="$PROJECT_DIR$/serice-feign/serice-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicehi/servicehi.iml" filepath="$PROJECT_DIR$/servicehi/servicehi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicehi2/servicehi2.iml" filepath="$PROJECT_DIR$/servicehi2/servicehi2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springclouddemo.iml" filepath="$PROJECT_DIR$/.idea/springclouddemo.iml" />
+    </modules>
+  </component>
+</project>

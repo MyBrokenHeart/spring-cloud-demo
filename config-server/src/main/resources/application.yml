@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/MyBrokenHeart/springcloudconfig.git
+          search-paths: test1,test2
+          username:
+          password:
+    bus:
+      trace:
+        enabled: true
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  security:
+      enabled: false

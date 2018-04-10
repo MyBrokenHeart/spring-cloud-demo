@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: haha
+  cloud:
+    config:
+      label: master
+      profile: dev
+#      uri: http://localhost:8888/
+      discovery:
+        enabled: true
+        service-id: config-server
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
